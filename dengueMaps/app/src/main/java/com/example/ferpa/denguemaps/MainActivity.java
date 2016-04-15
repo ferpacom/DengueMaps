@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TextView txtTitulo = (TextView) findViewById(R.id.texto_fonte);
         TextView txtSobre = (TextView) findViewById(R.id.tv_sobre);
-        Typeface fontTitulo = Typeface.createFromAsset(getAssets(), "disoluta-font-FFP.ttf");
-        Typeface fontSobre = Typeface.createFromAsset(getAssets(), "Bunaken_Underwater.ttf");
+        Typeface fontTitulo = Typeface.createFromAsset(getAssets(), "fonts/disoluta-font-FFP.ttf");
+        Typeface fontSobre = Typeface.createFromAsset(getAssets(), "fonts/Bunaken_Underwater.ttf");
         txtTitulo.setTypeface(fontTitulo);
         txtSobre.setTypeface(fontSobre);
         setUI();
