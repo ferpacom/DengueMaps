@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">dengueMaps</string>
+    <string name="slogan">Todos Contra a Dengue</string>
+    <string name="s_seleccione_imagem">Selecione a imagem</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="buttonLink">Sobre o DengueMaps</string>
+</resources>
